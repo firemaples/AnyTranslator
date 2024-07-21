@@ -115,14 +115,14 @@ dependencies {
 
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
 
-    implementation 'androidx.core:core-ktx:1.10.1'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.2'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
-    implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.6.2'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.8.3'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3'
+    implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.8.3'
     implementation "androidx.preference:preference-ktx:1.2.1"
     implementation 'androidx.webkit:webkit:1.7.0'
     //noinspection GradleDynamicVersion
@@ -138,7 +138,7 @@ dependencies {
     testImplementation "androidx.arch.core:core-testing:2.2.0"
 
     // Data store - preference
-    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    implementation "androidx.datastore:datastore-preferences:1.1.1"
 
     // Navigation component
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
@@ -148,11 +148,13 @@ dependencies {
     // Testing Navigation
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
+    implementation "com.google.android.play:feature-delivery:2.1.0"
+
     // required to avoid crash on Android 12 API 31
-    implementation 'androidx.work:work-runtime-ktx:2.8.1'
+    implementation 'androidx.work:work-runtime-ktx:2.9.0'
 
     // Compose
-    def composeBom = platform('androidx.compose:compose-bom:2024.02.02')
+    def composeBom = platform('androidx.compose:compose-bom:2024.06.00')
     implementation composeBom
     androidTestImplementation composeBom
     // Material Design 3
@@ -169,7 +171,7 @@ dependencies {
     kapt "com.google.dagger:hilt-compiler:2.48"
 
     // Firebase
-    implementation platform('com.google.firebase:firebase-bom:32.6.0')
+    implementation platform('com.google.firebase:firebase-bom:32.8.1')
     implementation 'com.google.firebase:firebase-crashlytics'
     implementation 'com.google.firebase:firebase-analytics'
     //  implementation 'com.google.firebase:firebase-core'
@@ -192,7 +194,7 @@ dependencies {
     implementation 'com.google.mlkit:translate:17.0.2'
 
     // Google MLKit - Identify Languages
-    implementation 'com.google.mlkit:language-id:17.0.4'
+    implementation 'com.google.mlkit:language-id:17.0.5'
 
     // Kotpref
     // core
@@ -240,9 +242,9 @@ dependencies {
 //    implementation 'com.mopub.mediation:adcolony:4.5.0.1'
 
     // Admob
-    implementation 'com.google.android.gms:play-services-ads:22.5.0'
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
     // Facebook Ad network
-    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+    implementation 'com.google.ads.mediation:facebook:6.17.0.0'
     // Adcolony Ad network
     implementation 'com.google.ads.mediation:adcolony:4.8.0.2'
     // To fix build failed with issue
