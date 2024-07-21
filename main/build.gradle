@@ -240,7 +240,7 @@ dependencies {
 //    implementation 'com.mopub.mediation:adcolony:4.5.0.1'
 
     // Admob
-    implementation 'com.google.android.gms:play-services-ads:22.5.0'
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
     // Facebook Ad network
     implementation 'com.google.ads.mediation:facebook:6.16.0.0'
     // Adcolony Ad network
