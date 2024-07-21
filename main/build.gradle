@@ -138,7 +138,7 @@ dependencies {
     testImplementation "androidx.arch.core:core-testing:2.2.0"
 
     // Data store - preference
-    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    implementation "androidx.datastore:datastore-preferences:1.1.1"
 
     // Navigation component
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
