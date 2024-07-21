@@ -148,6 +148,8 @@ dependencies {
     // Testing Navigation
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
+    implementation "com.google.android.play:feature-delivery:2.1.0"
+
     // required to avoid crash on Android 12 API 31
     implementation 'androidx.work:work-runtime-ktx:2.9.0'
 
