@@ -222,7 +222,7 @@ dependencies {
 //    implementation 'cz.adaptech:tesseract4android:4.1.0'
 
     // koral--/android-gif-drawable
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.28'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.29'
 
 //    // Ad network mediation - Mopub
 //    implementation('com.mopub:mopub-sdk:+@aar') {
