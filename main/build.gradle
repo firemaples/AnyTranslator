@@ -242,7 +242,7 @@ dependencies {
     // Admob
     implementation 'com.google.android.gms:play-services-ads:22.6.0'
     // Facebook Ad network
-    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+    implementation 'com.google.ads.mediation:facebook:6.17.0.0'
     // Adcolony Ad network
     implementation 'com.google.ads.mediation:adcolony:4.8.0.2'
     // To fix build failed with issue
