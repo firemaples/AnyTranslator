@@ -218,7 +218,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
 
     // Tesseract
-    implementation 'cz.adaptech.tesseract4android:tesseract4android:4.5.0'
+    implementation 'cz.adaptech.tesseract4android:tesseract4android:4.8.0'
 //    implementation 'cz.adaptech:tesseract4android:4.1.0'
 
     // koral--/android-gif-drawable
