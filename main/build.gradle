@@ -205,7 +205,7 @@ dependencies {
     implementation 'com.chibatching.kotpref:enum-support:2.13.2'
     // optional, support saving json string through Gson
     implementation 'com.chibatching.kotpref:gson-support:2.13.2'
-    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.google.code.gson:gson:2.12.1'
     // optional, support LiveData observable preference
     implementation 'com.chibatching.kotpref:livedata-support:2.13.2'
 //    implementation 'androidx.lifecycle:lifecycle-livedata:2.2.0'
